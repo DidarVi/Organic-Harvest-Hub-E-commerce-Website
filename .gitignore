@@ -1,0 +1,56 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+
+# Django
+*.log
+*.pot
+*.pyc
+*.so
+*.out
+*.pid
+*.swp
+*.sqlite3
+
+# Ignore database files
+db.sqlite3
+
+# Ignore environment variables
+.env
+
+# Ignore virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Ignore all static files that may be generated dynamically
+static/
+
+# Ignore media files (user-uploaded content)
+media/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore coverage reports
+coverage/
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore Docker-related files
+docker-compose.override.yml
+
+# Ignore node_modules (if you're using npm)
+node_modules/
